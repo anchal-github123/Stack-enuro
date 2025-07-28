@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, AlignJustify } from 'lucide-react';
 import Button from "./Button";
-import { motion } from "motion/react"
+import { motion } from "motion/react";
 export default function Navbar() {
 const navitems=[
     {
@@ -28,7 +28,7 @@ const navitems=[
    
 ]
   return (
-    <nav className="flex items-center justify-between py-4 ">
+    <nav className="flex items-center justify-between py-4  ">
     {/* logo============================================= */}
     <div>
         <h1 className="font-logo text-3xl"><span className="text-primary">Stack</span>neuro<span className="text-primary text-2xl">.</span></h1>
@@ -63,6 +63,10 @@ const navitems=[
 <div className="hidden lg:flex">
   <Button name="Get Started" styleType="primary" ></Button>
 </div>
+<div>
+  <AlignJustify></AlignJustify>
+</div>
+
 
 </nav>
    

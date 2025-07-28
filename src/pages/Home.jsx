@@ -1,6 +1,7 @@
 import Lottie from "lottie-react";
 import HeroImage from "../assets/Lottieimage/Simple coding.json";
 import Button from "../components/Button";
+import companyimage from "../assets/Images/360_F_467979573_PBejz9RgVw0Pw63g2KV89HeaGYhJPNjt.jpg"
 export default function Home() {
   return (
     <>
@@ -19,9 +20,15 @@ export default function Home() {
      <Lottie animationData={HeroImage} loop={true} /></div>
    </div>
 
+   <div className="w-full max-w-screen mx-auto">
+  <img src={companyimage} alt="People" className="w-full h-auto" />
+</div>
+
    <div className="container bg-gray-100">
    <div>
-    <img></img>
+   
+
+    
     <p>Drive Business Growth</p>
     <p>Leverage our expertise to scale your business with innovative solutions and strategic insights.s</p>
    <Button name="Get Started" styleType="primary"></Button>
@@ -31,7 +38,7 @@ export default function Home() {
 
    </div>
    <div>
-    
+
    </div>
 
 

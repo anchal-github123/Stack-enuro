@@ -12,6 +12,7 @@ const roues=createBrowserRouter(
                     index:"/",
                     element:<Home/>,
                 },
+                
                 {
                     path:"/Contact",
                     element:<Contact/>}

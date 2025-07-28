@@ -1,1 +1,19 @@
+
 @import "tailwindcss";
+
+
+
+@theme{
+  /* font styling */
+  --font-heading: "figtree", sans-serif;
+  --font-subheading:"Poppins", sans-serif;
+  --font-logo:"Jersey 25", sans-serif;
+  /* colors */
+  --color-primary:#0052CC;
+  --color-sec:#000000;
+
+}
+
+/* html{
+  scroll-behavior: smooth;
+} */

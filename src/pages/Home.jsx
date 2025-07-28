@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
     <div className='grid items-center gap-5  lg:grid-cols-2 container'>
-    <div className="flex flex-col gap-5">
+    <div className="mt-5 flex flex-col gap-5 lg:mt-0">
       <h1 className="text-3xl font-heading font-semibold lg:text-4xl">
         <span className="text-primary">Grow Smarter </span>with Expert Tech, Design & Legal Services
       </h1>

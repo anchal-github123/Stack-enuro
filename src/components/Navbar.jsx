@@ -63,7 +63,7 @@ const navitems=[
 <div className="hidden lg:flex">
   <Button name="Get Started" styleType="primary" ></Button>
 </div>
-<div>
+<div className="lg:hidden">
   <AlignJustify></AlignJustify>
 </div>
 

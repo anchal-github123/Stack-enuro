@@ -1,7 +1,4 @@
-
 @import "tailwindcss";
-
-
 
 @theme{
   /* font styling */
@@ -10,10 +7,15 @@
   --font-logo:"Jersey 25", sans-serif;
   /* colors */
   --color-primary:#0052CC;
-  --color-sec:#000000;
+  --color-sec:#F6F3F4;
+  --color-box:#FFF0F9;
 
 }
 
+.container{
+  margin-bottom: 1.2rem ;
+
+}
 /* html{
   scroll-behavior: smooth;
 } */

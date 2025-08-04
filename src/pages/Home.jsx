@@ -1,47 +1,30 @@
-import Lottie from "lottie-react";
-import HeroImage from "../assets/Lottieimage/Simple coding.json";
 import Button from "../components/Button";
-import companyimage from "../assets/Images/360_F_467979573_PBejz9RgVw0Pw63g2KV89HeaGYhJPNjt.jpg"
+import ContactForm from "../components/ContactForm";
+import ServiceSection from "../components/ServiceSection";
+import HeroSection from "../components/HeroSection";
+import HeroImage from "../assets/Lottieimage/Simple coding.json";
 export default function Home() {
   return (
-    <>
-    <div className='grid items-center gap-5  lg:grid-cols-2 container'>
-    <div className="mt-5 flex flex-col gap-5 lg:mt-0">
-      <h1 className="text-3xl font-heading font-semibold lg:text-4xl">
-        <span className="text-primary">Grow Smarter </span>with Expert Tech, Design & Legal Services
-      </h1>
-      <div className="flex items-center justify-center  gap-3 lg:justify-start">
-      <Button name="Contact Us" styleType="outline"/>
-      <Button name="Explore More" styleType="primary"/>
+    <> 
+    <section>
+    {/* 1st section */}
+    <HeroSection text1="Grow Smarter " text2="with Expert Tech, Design & Legal Services" img={HeroImage}></HeroSection>
+ 
+{/* 2nd section */}
+   <div className="container bg-sec grid lg:grid-cols-2 gap-5">
+   <div className="flex flex-col justify-center p-5">
+   <p className="text-3xl">Drive Business Growth</p>
+    <p>We help businesses scale smartly through tailored tech solutions, market insights, and reliable digital strategies.</p>
+    <div><Button name="Get Started" styleType="primary"></Button></div>
+   </div>
+   <div className="flex items-center justify-center">
+   {/* <ContactForm></ContactForm> */}
     </div>
-     
-    </div>
-    <div className="">
-     <Lottie animationData={HeroImage} loop={true} /></div>
-   </div>
-
-   <div className="w-full max-w-screen mx-auto">
-  <img src={companyimage} alt="People" className="w-full h-auto" />
-</div>
-
-   <div className="container bg-gray-100">
-   <div>
-   
-
-    
-    <p>Drive Business Growth</p>
-    <p>Leverage our expertise to scale your business with innovative solutions and strategic insights.s</p>
-   <Button name="Get Started" styleType="primary"></Button>
-
-   </div>
-
-
-   </div>
-   <div>
-
-   </div>
-
-
+ </div>
+   {/* 3rd section */}
+   <ServiceSection></ServiceSection>
+  
+</section>
 </>
   )
 }

@@ -1,12 +1,14 @@
 import { Outlet } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar/Navbar';
 import Footer from './components/Footer';
 export default function MainLayout() {
   return (
-    <div className='max-w-7xl m-auto px-3'>
+    <section className=''>
     <Navbar/>
+    <div className='max-w-7xl m-auto grid place-content-center p-3'>
     <Outlet/>
-    <Footer/>
     </div>
+    <Footer/>
+    </section>
   )
 }

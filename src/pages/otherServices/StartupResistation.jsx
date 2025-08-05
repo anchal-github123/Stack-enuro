@@ -4,7 +4,7 @@ import ServiceSection from "../../components/ServiceSection";
 export default function StartupResistation() {
   return (
     <section>
-        <HeroSection text1="Empower " text2="Your Startup Journey" img={startupimg}/>
+        <HeroSection text1="Empower" text2="Your Startup Journey" img={startupimg}/>
         <ServiceSection/>
     </section>
   )

@@ -11,11 +11,11 @@ export default function Home() {
     <HeroSection text1="Grow Smarter " text2="with Expert Tech, Design & Legal Services" img={HeroImage}></HeroSection>
  
 {/* 2nd section */}
-   <div className="container bg-sec grid lg:grid-cols-2 gap-5">
-   <div className="flex flex-col justify-center p-5">
+   <div className="container bg-sec grid">
+   <div className="flex flex-col justify-center p-5 gap-2">
    <p className="text-3xl">Drive Business Growth</p>
     <p>We help businesses scale smartly through tailored tech solutions, market insights, and reliable digital strategies.</p>
-    <div><Button name="Get Started" styleType="primary"></Button></div>
+    <div><Button name="Get Started" styleType="primary"  link= "/Contact"></Button></div>
    </div>
    <div className="flex items-center justify-center">
    {/* <ContactForm></ContactForm> */}

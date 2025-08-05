@@ -1,11 +1,8 @@
-import { motion } from "motion/react";
-
+import ContactForm from "../components/ContactForm";
 export default function Contact() {
   return (
-    <div>
-      Contact
-
-      
-    </div>
+    <div className="overflow-hidden">
+    <ContactForm/>
+   </div>
   )
 }

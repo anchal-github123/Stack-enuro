@@ -45,7 +45,7 @@ return (
 
       {/* button */}
       <div className="hidden lg:flex">
-        <Button name="Get Started" styleType="primary" />
+        <Button name="Get Started" styleType="primary"  link= "/Contact"/>
       </div>
 
       {/* mobile menu icon */}

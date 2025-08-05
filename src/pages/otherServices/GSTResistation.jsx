@@ -4,7 +4,7 @@ import ServiceSection from "../../components/ServiceSection";
 export default function GSTResistation() {
   return (
     <section>
-    <HeroSection text1="Powerful, Scalable & User-Friendly Mobile Apps," text2="Apps That Perform, Scale, and Inspire" img={GSTResistationimg} size="small"/>
+    <HeroSection text1="Simplified" text2="GST Registration With Expert Support" img={GSTResistationimg} size="small"/>
     <ServiceSection/>
   </section>
   )

@@ -17,7 +17,7 @@ function HeroSection({ text1, text2, img, size }) {
         </h1>
         <div className="flex items-center justify-center gap-3 lg:justify-start">
           <Button name="Contact Us" styleType="outline"  link= "/Contact"/>
-          <Button name="Explore More" styleType="primary"  link= "/Contact"/>
+          <Button name="Explore More" styleType="primary"  link= "/"/>
         </div>
       </div>
 

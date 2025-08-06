@@ -8,6 +8,7 @@ export default function Button({ name, styleType, link }) {
       : "bg-white text-primary hover:bg-primary hover:text-white";
 
   return (
+    
     <NavLink to={link} className={`${baseStyles} ${dynamicStyle}  text-center`}>
       {name}
     </NavLink>

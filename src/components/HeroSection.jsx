@@ -17,7 +17,7 @@ function HeroSection({ text1, text2, img, size }) {
         </h1>
         <div className="flex items-center justify-center gap-3 lg:justify-start">
           <Button name="Contact Us" styleType="outline"  link= "/Contact"/>
-          <Button name="Explore More" styleType="primary"  link= "/"/>
+         <a href="#Service_Section" className="bg-primary text-white hover:bg-white hover:text-primary px-5 py-2 rounded-full shadow-md border-3 inline-block">Explor More</a>
         </div>
       </div>
 

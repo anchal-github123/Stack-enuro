@@ -6,7 +6,7 @@ return (
     <div className="flex items-center justify-center">
       {!isLoaded && (
         <div className="absolute flex items-center justify-center bg-white">
-          <p className="text-gray-500 animate-pulse">Loading form...</p>
+          <p className="text-gray-500 animate-pulse">Loading...</p>
         </div>
       )}
       <iframe

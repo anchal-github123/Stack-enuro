@@ -10,6 +10,8 @@ const StartupResistation = lazy(() => import("../pages/otherServices/StartupResi
 const GSTResistation = lazy(() => import("../pages/otherServices/GSTResistation"));
 const Branding = lazy(() => import("../pages/otherServices/Branding"));
 const Contact = lazy(() => import("../pages/Contact"));
+const Error = lazy(() => import("../pages/Error"));
+
 import MainLayout from "../MainLayout";
 
 // Routes
@@ -17,6 +19,7 @@ const routes = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout />,
+    
     children: [
       {
         index: true,
@@ -60,6 +63,10 @@ const routes = createBrowserRouter([
       },
     ],
   },
+  {
+  path: "*",
+  element: <Error/>,
+}
 ]);
 
 export default function Approutes() {

@@ -32,8 +32,7 @@ export default function ServiceCardSection({ data }) {
   return (
     <div
       ref={ref}
-      className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
-    >
+      className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3" >
       {services.map((service, index) => (
         <motion.div
           key={index}
@@ -41,8 +40,7 @@ export default function ServiceCardSection({ data }) {
           initial="hidden"
           animate={controls}
           variants={cardVariants}
-        >
-          <ServiceCard service={service} />
+        ><ServiceCard service={service} />
         </motion.div>
       ))}
     </div>

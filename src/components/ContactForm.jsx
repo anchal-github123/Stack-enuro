@@ -15,8 +15,7 @@ return (
         className="w-screen h-[90vh] border-0"
         onLoad={() => setIsLoaded(true)
         }
-    
-      >Loading…
+    >Loading…
       </iframe>
     </div>
   );

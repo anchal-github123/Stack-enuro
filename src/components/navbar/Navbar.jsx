@@ -1,6 +1,7 @@
 import Button from "../Button";
 import DesktopNav from "./DesktopNav";
 import MobileNav from './MobileNav';
+import logo from "../../assets/Images/Solution (2).png"
 export default function Navbar() {
 
   const navitems = [
